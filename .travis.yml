@@ -2,9 +2,9 @@ install: echo 'Nothing to Install'
 script: echo 'Nothing to Test'
 deploy:
   provider: s3
-  access_key_id: AKIAJJAJRBR4TQHQGXOQ
+  access_key_id: AKIAJXVH6AEJW7BEDZWQ
   secret_access_key:
-    secure: gWqyiRkv7smAjtUFhYvg+BK3KiYkjgSxE1FKECtJA0RDnT/+ukdRC81q1VhWNrV4YyYG+J6RnYUccPVqpZwLvuuwX3ajqh+OclzIPJm5b7yybEmyiEzEj6F6hqQJli3mGsbz3urFDIphA4b26SIyQ4g9YMJQp/RLDyrPJ3YnrSY=
+    secure: h3sEt3UkRZgvI+8SDkUAzfldJpz98TiWr6cOLSS1BHrawooqcWXpxlyzwwwa6/0uMb0RSjghMCLMlEfUNoKd8ez8BxiruhKraMIQjUkjtpH2KHjkMAMoXi8plipzF/ZS9SHM2A01MfIQZAA5Mf8jYUHUL5FYRnxNrqVMYKU1CGQ=
   bucket: webmakerprototypes.org
   on:
     repo: mozilla/webmakerprototypes.org
